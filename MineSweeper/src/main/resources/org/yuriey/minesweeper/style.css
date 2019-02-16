@@ -1,0 +1,118 @@
+.pane-mode{
+    -fx-background-radius: 8
+}
+#easyModePane{
+    -fx-background-color:  #00bc1a
+}
+#mediumModePane{
+    -fx-background-color:  #bcb900
+}
+#hardModePane{
+    -fx-background-color:  #ff3b3b
+}
+#customModePane{
+    -fx-background-color: #619aa1
+}
+.pane-menu{
+    -fx-background-color: #14b3ad
+}
+.pane-menu:hover{
+    -fx-effect:dropshadow(three-pass-box,  #14b3ad, 8.0, 0, 0, 0)
+
+}
+.pane-mode:hover{
+    -fx-effect:dropshadow(three-pass-box, #003a77, 16.0, 0, 0, 0)
+}
+.grid-mine {
+    -fx-background-color:  #daf1ff;
+       -fx-background-radius:  2;
+    -fx-background-image: url("images/mine.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:100% 100%
+
+}
+.grid-mine-exploded {
+    -fx-background-color:  #ff1a1a;
+    -fx-background-radius:  2;
+    -fx-background-image: url("images/mine.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:100% 100%
+
+}
+
+.grid-cube {
+    -fx-background-color:  #c0f1ff;
+    -fx-background-radius:  2;
+}
+
+.grid-cube-mark {
+    -fx-background-color:  #c0f1ff;
+    -fx-background-radius:  2;
+    -fx-background-image: url("images/flag.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:100% 100%
+}
+.grid-cube-mark-pressed {
+    -fx-effect:innershadow(three-pass-box,#97a5a9, 2.0, 1.0, 0, 0);
+    -fx-background-color:  #daf1ff;
+    -fx-background-radius:  2;
+    -fx-background-image: url("images/flag.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:100% 100%
+}
+
+.grid-cube-mark-unknown-pressed {
+    -fx-effect:innershadow(three-pass-box,#97a5a9, 2.0, 1.0, 0, 0);
+    -fx-background-color:  #daf1ff;
+    -fx-background-radius:  2;
+    -fx-background-image: url("images/question-mark.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:100% 100%
+}
+
+.grid-cube-mark-unknown {
+    -fx-background-color:  #c0f1ff;
+    -fx-background-radius:  2;
+    -fx-background-image: url("images/question-mark.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:100% 100%
+}
+
+.grid-cube-swept {
+    -fx-background-color:  #daf1ff;
+    -fx-background-radius:  2;
+}
+
+.grid-cube:hover {
+    /*-fx-background-color:  #c0f1ff;*/
+}
+.grid-cube-pressed {
+    -fx-effect:innershadow(three-pass-box,#97a5a9, 2.0, 1.0, 0, 0);
+    /*-fx-background-color:  #589dbf;*/
+    -fx-background-color:  #daf1ff;
+    -fx-background-radius:  2;
+}
+.num-mines-1 {
+    -fx-text-fill: #0134ef;
+}
+.num-mines-2 {
+    -fx-text-fill: #01c410;
+}
+.num-mines-3 {
+    -fx-text-fill:#ed2929;
+}
+.num-mines-4 {
+    -fx-text-fill: #07006e;
+}
+.num-mines-5 {
+    -fx-text-fill: #7a078f;
+}
+.num-mines-6 {
+    -fx-text-fill:#5851c2;
+}
+.num-mines-7 {
+    -fx-text-fill:#170191;
+}
+.num-mines-8 {
+    -fx-text-fill:#000000;
+}
